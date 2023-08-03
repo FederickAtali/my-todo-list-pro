@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="todo.css">
+    <title>my todo lists</title>
+  </head>
+  <body>
+
+    <!--The whole section of my do to list.-->
+    <section class="todolis">
+      <div class="container" id="alltodo">
+         <!--Enter todo-section
+            -->
+            <div class="bettertdo" id="better-todo">
+             <h2>My todo lists project</h2>
+             <!--input field-->
+             <input
+             id="inputHere"
+             type="text"
+             class="enter-todoItem"
+             placeholder="Enter Item...."
+             />
+             <!--button to add todos-->
+             <span onclick="newTodoElement()" class="Btn">Add</span>
+        </div>
+
+        <!--Some already added todos
+        which can be deleted to add more todos-->
+        <div class="addmoretodos">
+          <ul id="present-todo">
+            <li>6:30am go to bed</li>
+            <li class="checked">6:30 to 6:45 prayer</li>
+            <li>6:45 go to bed</li>
+            <li>1pm get up from bed</li>
+            <li>1pm to 1:20pm prayer</li>
+            <li>1:20pm to 2pm gym</li>
+            <li>2pm to 5:40 bath,food,code</li>
+            <li>6pm go to work</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+   <!--java script code file-->
+    <script src="todo.js"></script>
+  </body>
+</html>
