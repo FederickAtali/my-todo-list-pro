@@ -11,3 +11,5 @@ You must enter a todo item to be added.The program will result to an error if yo
 
 
 
+#Image of the program with two default todo items
+![Alt text](image.png)
